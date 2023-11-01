@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { TbArrowsJoin2 } from "react-icons/tb";
 import Snowfall from "react-snowfall";
+import { PiWarningThin } from "react-icons/pi";
 
 import {
   AnimatePresence,
@@ -146,6 +147,12 @@ export default function Home() {
                 Wave of New Project on the Horizon. Sign up to our waitlist to
                 be notified when we launch!
               </p>
+              {errors.email && (
+                <p className="border dark:border-white/25 border-[#704705] flex gap-x-3 items-center p-2 pl-5 max-w-md bg-gradient-to-r from-10% dark:from-[#704705] text-[#3a2503] from-[#f5a524] via-30% dark:via-black dark:to-black to-100% to-[#704705] mx-auto rounded-md dark:text-white ">
+                  <PiWarningThin className="text-[#704705] dark:text-white text-lg" />
+                  {errors.email.message}
+                </p>
+              )}
             </div>
             <div className="w-full space-y-1 justify-between">
               <form
