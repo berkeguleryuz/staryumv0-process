@@ -148,7 +148,7 @@ export default function Home() {
                 be notified when we launch!
               </p>
               {errors.email && (
-                <p className="border dark:border-white/25 border-[#704705] flex gap-x-3 items-center p-2 pl-5 max-w-md bg-gradient-to-r from-10% dark:from-[#704705] text-[#3a2503] from-[#f5a524] via-30% dark:via-black dark:to-black to-100% to-[#704705] mx-auto rounded-md dark:text-white ">
+                <p className="border dark:border-white/25 border-[#704705] flex gap-x-3 items-center p-2 pl-5 max-w-md bg-gradient-to-r from-40% dark:from-[#704705] text-[#3a2503] from-[#ffe1b1] via-80% dark:via-black dark:to-black to-100% to-[#070400] mx-auto rounded-md dark:text-white ">
                   <PiWarningThin className="text-[#704705] dark:text-white text-lg" />
                   {errors.email.message}
                 </p>
