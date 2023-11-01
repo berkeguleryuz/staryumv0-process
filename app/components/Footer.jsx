@@ -3,7 +3,6 @@ import React from "react";
 
 import {
   PiCodeBold,
-  PiGithubLogoLight,
 } from "react-icons/pi";
 
 import { RiTwitterXLine, RiGithubFill } from "react-icons/ri";
