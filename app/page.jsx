@@ -321,7 +321,7 @@ const SpringModal = ({ isOpen, setIsOpen }) => {
                     width={5}
                     height={5}
                     className="w-5"
-                    src="/party.png"
+                    src="/1.png"
                     alt=""
                   />
                 </button>
@@ -378,7 +378,7 @@ const RecievedModal = ({ isOpenModel, setIsOpenModel }) => {
                     width={7}
                     height={7}
                     className="w-7"
-                    src="/party.png"
+                    src="/1.png"
                     alt=""
                   />
                 </button>
